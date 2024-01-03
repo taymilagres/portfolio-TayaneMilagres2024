@@ -1,4 +1,4 @@
-# Portfólio: Tayane Milagres
+# Portfolio: Tayane Milagres
 
 Aplicação com informações básicas sobre mim e os melhores projetos que eu desenvolvi e participei do desenvolvimento, assim como habilidades e tecnologias que estou estudando no momento.
 
