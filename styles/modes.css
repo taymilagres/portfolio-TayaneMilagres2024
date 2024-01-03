@@ -1,0 +1,97 @@
+/* Modo Dark e Ligth */
+
+.trilho{
+    width: 72px;
+    height: 33px;
+    background-color: #520377;
+    margin-top: 1%;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.trilho .indicador{
+    width: 32px;
+    height:32px;
+    /*background-color: #fff;*/
+    background-image: url(../img/Ligth.png);
+    
+    
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: 0.5s;
+
+    
+ 
+}
+
+.trilho.dark{
+    background-color: #ba7cd4;
+}
+
+.trilho.dark .indicador{
+    left: 40px;
+    /*background-color: #520377;*/
+    background-image: url(../img/Dark\ \(1\).png);
+}
+
+main.dark{
+    background-color: #ebc5fb;
+}
+
+main.dark nav > ul > a > li{
+    color: #780DAA;
+    font-weight: 600;
+}
+
+main.dark hr{
+    color: #d163f5;
+}
+
+main.dark header{
+    background-color: #520377;
+}
+
+main.dark .txtAboutMe > h1{
+    color: #C43FF3;
+    font-weight: 600;
+}
+
+main.dark .skills > h1{
+    color: #C43FF3;
+    font-weight: 600;
+}
+
+main.dark .projects > h1{
+    color: #C43FF3;
+    font-weight: 600;
+}
+
+main.dark .study > h1{
+    color: #C43FF3;
+    font-weight: 600;
+}
+
+
+
+main.dark .txtAboutMe > p {
+    color: #14001d;
+    font-family: 'Inter';
+    text-align: justify;
+}
+
+main.dark .card-text{
+    color: #14001d;
+}
+
+main.dark .copyrigth > p{
+    color: #320248;
+}
+
+/* menu Mobile */
+
+main.dark #nav.ativado #menu {
+    background-color: #e2b5f6;
+}

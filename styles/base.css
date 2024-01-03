@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&family=Jura:wght@400;700&family=Kanit:wght@500&family=Lato:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    transition: 0.7s;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #250235;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav > ul > a > li {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter';
+    color: #E290FE;
+}
+
+#btnMobile{
+    display: none ;
+}
+
+p {
+    font-family: 'Lato';
+    color: #fff;
+}
+
+header > .presentation > h1{
+    font-family: 'Kanit';
+    color: #09E4E4;
+}
+
+header > .presentation > h2 {
+    font-family: 'Lato';
+    color: #fff;
+}
+
+header > .presentation > h3 {
+    color: #fff;
+    font-family: 'Jura';
+}
+
+.skills > h1, .txtAboutMe > h1, .projects > h1, .study > h1 {
+    font-family: 'Jura';
+    color: #E290FE;
+    
+}
+
+
+
+.hardSkills > h2 {
+    font-family: 'Inter';
+    color: #780DAA;
+    font-weight: 700;
+}
+
+.softSkills > h2 {
+    font-family: 'Inter';
+    color: #780DAA;
+    font-weight: 700;
+}
+
+
+.content > h3 {
+    font-family: 'Jura';
+}
+
+
+.softSkills > h3 {
+    font-family: 'Jura';
+}
+
+.content > ul > li {
+   
+    color: #250235;
+    font-family: 'Inter';
+    font-weight: 510;
+}
+
+.contentSoft > ul > li {
+    font-family: 'Inter';
+    font-weight: 525;
+    color: #250235;
+}
+
+.plantyPost > h2, .toDoPost > h2, .bomSaborPost > h2 {
+    font-family: 'Jura';
+}
+
+.plantyPost > p, .toDoPost > p, .bomSaborPost > p {
+    color: #000000;
+}
+
+button {
+    font-family: 'Lato';
+}
+
+.infoContact > h1 {
+    font-family: 'Kanit';
+    color: #09E4E4;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 4em;
+}
+
+.gmail > p {
+    font-family: 'Lato';
+}
