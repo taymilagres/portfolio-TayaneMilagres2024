@@ -116,6 +116,8 @@ header > img {
 .txtAboutMe{
     width: 60%;
     padding-right: 10%;
+    flex-direction: column;
+    display: flex;
 }
 
 .txtAboutMe > h1 {
@@ -148,6 +150,29 @@ header > img {
     max-width: 15vw;
     max-height: 200vh;
 }
+
+.btnSobre{
+    width: 9vw;
+    height: 5vh;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+.btnSobre{
+    background-color: #54a5b7;
+}
+
+.btnAbout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5%;
+    margin-top: 4%;
+}
+
 
 /* Skills */
 
@@ -226,7 +251,7 @@ header > img {
 }
 
 .content > ul > li {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
 }
 
 .skillBox {
@@ -379,6 +404,8 @@ header > img {
     align-items: center;
     justify-content: center;
 }
+
+
 
 /* Studying */
 

@@ -145,6 +145,30 @@
         
     }
 
+    .btnSobre{
+        width: 27vw;
+        height: 5vh;
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-weight: 600;
+        border: none;
+        outline: none;
+        font-size: 3vw;
+    }
+    
+    .btnSobre{
+        background-color: #54a5b7;
+    }
+    
+    .btnAbout{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
+
     /* Skills */
  
     .skills {
@@ -451,6 +475,30 @@
         max-height: 200vh;
     }
 
+    .btnSobre{
+        width: 15vw;
+        height: 4.6vh;
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-weight: 600;
+        border: none;
+        outline: none;
+        font-size: 2vw;
+    }
+    
+    .btnSobre{
+        background-color: #54a5b7;
+    }
+    
+    .btnAbout{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
+
     /* Skills */
 
 
@@ -662,6 +710,30 @@
     
     .txtAboutMe > p{
         text-align: justify;
+    }
+
+    .btnSobre{
+        width: 12vw;
+        height: 4.7vh;
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-weight: 600;
+        border: none;
+        outline: none;
+        font-size: 1.5vw;
+    }
+    
+    .btnSobre{
+        background-color: #54a5b7;
+    }
+    
+    .btnAbout{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5%;
+        margin-top: 4%;
+        margin-bottom: 5%;
     }
     
     /* Skills */
